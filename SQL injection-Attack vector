@@ -1,0 +1,34 @@
+Few examples here:
+
+Username & Password field
+search pages, 
+feedback pages
+SQL injection might be possible in applications that use SSL
+Comment fields
+Any other data entry and saving fields
+Website links
+All input fields.
+price, description, availability,
+Chk the update fields.
+Application logics
+Modification of URL Strings
+Employee Abuse of Limited Access
+Error Messages
+Outdated/Unpatched Applications
+Old, Legacy, or Lazy Code.
+Modifying TSQL statements to return additional data 
+Modify stored procedures, functions, or other database schemas 
+Test for the existence of database or server objects, such as tables or users 
+Alter passwords or permissions 
+Access components outside of SQL Server, such as server or storage infrastructure 
+Delete, steal, alter, encrypt, or attempt to ransom data from within the database 
+Perform a denial-of-service attack on the database server by utilizing excessive resources.
+
+You should focus on where the follwing things are happens :-
+
+In UPDATE statements, within the updated values or the WHERE clause. 
+In INSERT statements, within the inserted values. 
+In SELECT statements, within the table or column name. 
+In SELECT statements, within the ORDER BY clause
+
+Reference : https://portswigger.net/web-security/sql-injection
